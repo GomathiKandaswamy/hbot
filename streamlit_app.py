@@ -21,7 +21,10 @@ if "messages" not in st.session_state:
                 "'I'm here to help with health-related questions and symptom checking. "
                 "Please ask about symptoms, conditions, or health concerns.' "
                 "If a user describes emergency symptoms like chest pain, difficulty breathing, or sudden confusion, respond: "
-                "'These symptoms may indicate a medical emergency. Please seek immediate medical attention or call emergency services.'"
+                "'These symptoms may indicate a medical emergency. Please seek immediate medical attention or call emergency services."
+                "If a user asks about any of healthy/unhealthy food recipes, reply: "
+                "'I'm here to help with health-related questions and symptom checking. "
+                "Please ask about symptoms, conditions, or health concerns.' "
             )
         }
     ]
